@@ -15,8 +15,3 @@ def getBaiduHtmlContent():
     response = getBaiduResponse()
     html = response.read().decode('utf-8')
     print(html)
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    getBaiduHtmlContent()
