@@ -48,7 +48,9 @@ if __name__ == '__main__':
     # 程序运行
     spider = xxxSpidet()
     spider.run()
-    # 进行1-2秒休眠，防止反爬虫
+    
+    
+     # 在run 中进行1-2秒休眠，防止反爬虫
     time.sleep(random.randint(1, 2))
 ```
 
